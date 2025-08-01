@@ -1,5 +1,6 @@
 # Resume-M.V.Rajasree
 Created with CodeSandbox <br>
+[View live resume] (https://yrcwlr-5000.csb.app/) <br>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -28,7 +29,7 @@ Created with CodeSandbox <br>
         </div>
       </header>
 
-      <main>
+  <main>
         <div class="content-columns">
           <section class="left-column">
             <!-- Personal Profile -->
@@ -45,10 +46,10 @@ Created with CodeSandbox <br>
               </p>
             </section>
 
-            <!-- Contact Details -->
-            <section class="section contact-details">
+            
+  <section class="section contact-details">
               <!-- Added class for potential specific styling -->
-              <h3>CONTACT DETAILS</h3>
+            <h3>CONTACT DETAILS</h3>
               <ul>
                 <li>9520241568</li>
                 <li>emvrajasree@gmail.com</li>
@@ -62,7 +63,7 @@ Created with CodeSandbox <br>
               </ul>
             </section>
 
-            <section class="section">
+  <section class="section">
               <h3>SKILLS AND EXPERTISE</h3>
               <ul class="hard-skills">
                 <li>HTML</li>
@@ -71,7 +72,7 @@ Created with CodeSandbox <br>
                 <li>Linux</li>
               </ul>
 
-              <ul class="soft-skills">
+  <ul class="soft-skills">
                 <li>Effective Communication</li>
                 <li>Leadership</li>
                 <li>Volunteer Work</li>
@@ -82,7 +83,7 @@ Created with CodeSandbox <br>
               </ul>
             </section>
 
-            <section class="section">
+  <section class="section">
               <h3>LANGUAGES</h3>
               <ul>
                 <li>English (Fluent)</li>
@@ -92,7 +93,7 @@ Created with CodeSandbox <br>
             </section>
           </section>
 
-          <section class="right-column">
+  <section class="right-column">
             <!-- Educational History -->
             <section class="section">
               <h3>EDUCATIONAL HISTORY</h3>
@@ -106,29 +107,9 @@ Created with CodeSandbox <br>
               </div>
             </section>
 
-            <!-- Work Experience 
-        <section class="section">
-          <h3>WORK EXPERIENCE</h3>
-          <div class="experience-item">
-              <h4>Senior Software Engineer</h4>
-              <p>Keithston and Partners | Mar 2035 - Present</p>
-              <ul>
-                  <li>Spearheaded the development of a customer portal, streamlining user interactions and reducing response time by 20%.</li>
-                  <li>Implemented a real-time collaboration feature in a team project, enhancing communication and efficiency among remote team members.</li>
-              </ul>
-          </div>
-          <div class="experience-item">
-              <h4>Junior Software Engineer</h4>
-              <p>Ingoude Company | June 2030-Mar 2035</p>
-              <ul>
-                  <li>Collaborated with UX/UI designers to implement responsive design principles, resulting in a more user-friendly interface.</li>
-                  <li>Contributed to daily stand-ups and sprint planning sessions, fostering a collaborative and productive team environment.</li>
-              </ul>
-          </div>
-      </section>-->
 
-            <!-- Projects Section -->
-            <section class="section">
+            
+  <section class="section">
               <h3>PROJECTS</h3>
               <div class="project-item">
                 <h4>E-commerce Platform Redesign</h4>
