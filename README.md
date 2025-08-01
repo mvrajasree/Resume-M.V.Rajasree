@@ -6,8 +6,8 @@ Created with CodeSandbox <br>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Resume - M.V. Rajasree</title>
-    <link rel="stylesheet" href="styles.css" />
+    
+  <link rel="stylesheet" href="styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
       rel="stylesheet"
@@ -16,12 +16,6 @@ Created with CodeSandbox <br>
   <body>
     <div class="resume-container">
       <header class="resume-header">
-        <div class="profile-image-container">
-          <img
-            src="my image.png"
-            alt="Rajasree's image"
-            class="profile-image"
-          />
         </div>
         <div class="name-title-container">
           <h1>M.V. Rajasree</h1>
