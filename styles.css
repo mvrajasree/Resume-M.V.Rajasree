@@ -1,0 +1,207 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Resume Container Styling */
+.resume-container {
+  max-width: 900px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column; /* Stack header above content columns */
+}
+
+/* Header Styling */
+.resume-header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #eee;
+  margin-bottom: 20px;
+}
+
+.profile-image-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 30px;
+  background-color: #ccc; /* Placeholder background if image not loaded */
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.name-title-container h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #555;
+}
+
+.name-title-container h2 {
+  margin: 5px 0 0;
+  font-size: 1.2em;
+  color: #777;
+  font-weight: normal;
+}
+
+/* Content Columns Layout */
+.content-columns {
+  display: flex;
+  gap: 30px; /* Space between columns */
+}
+
+.left-column {
+  flex: 1; /* Takes up one portion of available space */
+}
+
+.right-column {
+  flex: 2; /* Takes up two portions, making it wider */
+}
+
+/* Section Styling */
+.section {
+  margin-bottom: 20px;
+}
+
+.section h3 {
+  background-color: #e0e0e0;
+  color: #555;
+  padding: 8px 15px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.section ul {
+  list-style: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.section ul li {
+  margin-bottom: 5px;
+  padding-left: 15px; /* Space for custom bullet */
+  position: relative;
+}
+
+.section ul li::before {
+  content: "\2022"; /* Unicode for bullet point */
+  color: #555;
+  position: absolute;
+  left: 0;
+}
+
+/* Specific Section Styles */
+.contact-details ul li {
+  margin-bottom: 8px;
+}
+
+.education-item,
+.experience-item {
+  margin-bottom: 15px;
+}
+
+.education-item h4,
+.experience-item h4 {
+  margin: 0;
+  font-size: 1.1em;
+  color: #444;
+}
+
+.education-item p,
+.experience-item p {
+  margin: 3px 0 8px;
+  font-size: 0.95em;
+  color: #666;
+}
+
+.education-item ul,
+.experience-item ul {
+  list-style: disc; /* Use default disc bullets for these lists */
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+.education-item ul li,
+.experience-item ul li {
+  font-size: 0.9em;
+  margin-bottom: 3px;
+  padding-left: 0; /* Remove extra padding for custom bullet */
+}
+
+.education-item ul li::before,
+.experience-item ul li::before {
+  content: none; /* Remove custom bullet for these lists */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .resume-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-image-container {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .content-columns {
+    flex-direction: column; /* Stack columns on small screens */
+  }
+
+  .left-column,
+  .right-column {
+    flex: auto; /* Allow columns to take necessary space */
+  }
+}
+
+/* Projects Section Specific Styling */
+.project-item {
+  margin-bottom: 20px; /* Add some space between projects */
+}
+
+.project-item h4 {
+  margin-bottom: 5px; /* Adjust spacing below project title */
+}
+
+.project-item p strong {
+  color: #444; /* Make technology names stand out slightly */
+}
+
+.project-item ul {
+  list-style: disc; /* Ensure projects use standard disc bullets */
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+.project-item ul li {
+  font-size: 0.9em;
+  margin-bottom: 3px;
+  padding-left: 0; /* Override custom bullet padding if needed */
+}
+
+.project-item ul li::before {
+  content: none; /* Remove custom bullet for these lists */
+}
+
+.project-item a {
+  color: #007bff; /* Standard link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.project-item a:hover {
+  text-decoration: underline; /* Add underline on hover for clarity */
+}
