@@ -50,8 +50,8 @@ Created with CodeSandbox <br>
                 <li>Thdc Colony</li>
                 <li>
                   GitHub:
-                  <a href="https://github.com/janesmith" target="_blank"
-                    >github.com/janesmith</a
+                  <a href="https://github.com/mvrajasree" target="_blank"
+                    >github.com/mvrajasree</a
                   >
                 </li>
               </ul>
@@ -92,11 +92,11 @@ Created with CodeSandbox <br>
             <section class="section">
               <h3>EDUCATIONAL HISTORY</h3>
               <div class="education-item">
-                <h4>ME Software Development</h4>
+                <h4>Bachelor of Computer Applications</h4>
                 <p>Swami Rama Himalayan University | 2024 - Present</p>
               </div>
               <div class="education-item">
-                <h4>BS Software Engineering</h4>
+                <h4>Higher Secondary Education</h4>
                 <p>Modern School Rishikesh | 2022-2024</p>
               </div>
             </section>
