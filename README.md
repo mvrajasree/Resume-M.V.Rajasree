@@ -149,7 +149,7 @@ Created with CodeSandbox <br>
                 </ul>
                 <p>
                   <a
-                    href="https://github.com/mvrajasree/Resume-M.V.Rajasree/edit/main/README.md"
+                    href="https://github.com/mvrajasree/Resume-M.V.Rajasree/blob/main/README.md"
                     target="_blank"
                     >View on GitHub</a
                   >
