@@ -106,37 +106,37 @@ Created with CodeSandbox <br>
   <section class="section">
               <h3>PROJECTS</h3>
               <div class="project-item">
-                <h4>E-commerce Platform Redesign</h4>
+                <h4>Rock Paper Scissors Lizard Spock Game</h4>
                 <p>
-                  <strong>Technologies:</strong> React, Node.js, Express,
-                  MongoDB
+                  <strong>Technologies:</strong> Python, math library, random
+                  library
                 </p>
                 <ul>
                   <li>
-                    Led a team of 3 to completely overhaul an existing
-                    e-commerce site, improving load times by 30%.
+                    Developed a classic command-line game against a computer
+                    opponent using Python.
                   </li>
                   <li>
-                    Implemented new payment gateway integrations and user
-                    authentication systems.
+                    Demonstrated proficiency in core programming concepts
+                    including conditional logic , user input handling, and
+                    random number generation.
                   </li>
-                  <li>Increased mobile responsiveness and user engagement.</li>
+                  <li>
+                    The project highlights problem-solving skills and the
+                    ability to build a functional application from scratch.
+                  </li>
                 </ul>
                 <p>
                   <a
-                    href="https://github.com/janesmith/ecommerce-project"
+                    href="https://www.codedex.io/@KaidaRex/build/rock_paper_scissors.py"
                     target="_blank"
-                    >View on GitHub</a
-                  >
-                  |
-                  <a href="https://demo.ecommerceplatform.com" target="_blank"
-                    >Live Demo</a
+                    >View on Codedex</a
                   >
                 </p>
               </div>
               <div class="project-item">
                 <h4>Personal Portfolio Website</h4>
-                <p><strong>Technologies:</strong> HTML5, CSS3, JavaScript</p>
+                <p><strong>Technologies:</strong> HTML, CSS</p>
                 <ul>
                   <li>
                     Designed and developed a responsive personal portfolio to
@@ -146,7 +146,6 @@ Created with CodeSandbox <br>
                     Utilized modern CSS techniques for animations and
                     interactive elements.
                   </li>
-                  <li>Optimized for SEO and accessibility.</li>
                 </ul>
                 <p>
                   <a
